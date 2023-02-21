@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./style.css">
+	<title>To-Do</title>
+</head>
+
+<body>
+	<div class="todo" id="todo">
+		<h1 class="text-center">My to-do list</h1>
+		<div class="input-group mb-3 ko-form">
+			<input id="input" type="text" class="form-control ko-input" placeholder="Введите новую задачу:"
+				aria-label="Recipient's username" aria-describedby="button-addon2">
+			<button class="btn btn-outline-secondary ko-button" type="button" id="button-addon2">Добавить</button>
+		</div>
+		<ul id="ul" class="todos">
+		</ul>
+	</div>
+	<script type="module" src="/main.js"></script>
+</body>
+
+</html>
